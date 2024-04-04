@@ -131,7 +131,7 @@ const PracticaUno = () => {
 	
 	const movies = watchList.map((movie) => {
 		if (movie.Director === 'Christopher Nolan' && movie.imdbRating > 8.0){
-			return movie.Title + "asd"
+			return movie.Title
 		}else{
 			return ""
 		}
