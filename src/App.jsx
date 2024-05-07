@@ -2,8 +2,19 @@ import React from 'react'
 import Table from './components/practicaDos/table/Table';
 import './App.css'
 import PracticaUno from './components/practicaUno/PracticaUno'
+import Login from './components/practicaTres/Login';
 
 const App = () => {
+  return (
+    <>
+    <Login/>
+    </>
+  )
+}
+
+export default App
+
+/* const App = () => {
   const netIncomes = [
     { brand: 'McDonalds', income: 1291283 },
     { brand: 'Burger King', income: 1927361 },
@@ -23,4 +34,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default App; */
