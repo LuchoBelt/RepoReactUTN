@@ -18,6 +18,7 @@ const Login = () => {
 
   return (
     <div>
+      <h3>Ingrese su nombre de usuario para registrarse</h3>
       <input 
         type="text"
         placeholder="Ingrese su usuario"
